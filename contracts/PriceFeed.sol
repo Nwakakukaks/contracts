@@ -15,13 +15,12 @@ contract PriceFeed {
         // prettier-ignore
         (
             /* uint80 roundID */,
-            int price,
+            int256 answer,
             /*uint startedAt*/,
             /*uint timeStamp*/,
             /*uint80 answeredInRound*/
         ) = priceFeed.latestRoundData();
-        return price;
+        return answer;
     }
 }
-
 

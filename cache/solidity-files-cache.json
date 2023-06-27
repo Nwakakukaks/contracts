@@ -1,52 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/workspace/box-protocol-contracts/contracts/BoxProtocol.sol": {
-      "lastModificationDate": 1687867820116,
-      "contentHash": "95172b0491f598820822d55bf05f488c",
-      "sourceName": "contracts/BoxProtocol.sol",
-      "solcConfig": {
-        "version": "0.8.18",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./PriceFeed.sol",
-        "@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
-        "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol",
-        "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol",
-        "@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.9"
-      ],
-      "artifacts": [
-        "BoxProtocol",
-        "ERC20I",
-        "WDEVinterface"
-      ]
-    },
     "/workspace/box-protocol-contracts/contracts/PriceFeed.sol": {
-      "lastModificationDate": 1687866094129,
-      "contentHash": "7789a9c8eb1bdb6dc07d95cfe8a9766c",
+      "lastModificationDate": 1687892764399,
+      "contentHash": "71a1e231392d36c07c0f3300ffdeab7f",
       "sourceName": "contracts/PriceFeed.sol",
       "solcConfig": {
         "version": "0.8.18",
@@ -590,6 +547,49 @@
       ],
       "artifacts": [
         "IERC165"
+      ]
+    },
+    "/workspace/box-protocol-contracts/contracts/Safe.sol": {
+      "lastModificationDate": 1687899011765,
+      "contentHash": "7e678597fb170ab1a0cce1b582623f9f",
+      "sourceName": "contracts/Safe.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PriceFeed.sol",
+        "@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
+        "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol",
+        "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol",
+        "@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "BoxDefi",
+        "ERC20I",
+        "WDEVinterface"
       ]
     }
   }

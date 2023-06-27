@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
   "contractName": "ERC20I",
-  "sourceName": "contracts/BoxProtocol.sol",
+  "sourceName": "contracts/Safe.sol",
   "abi": [
     {
       "inputs": [],
